@@ -1,7 +1,7 @@
 #!/bin/bash
 #server_start
 # Navigate to app folder
-cd /app/nextjs
+cd /home/ubuntu/nextjs
 
 if /home/ubuntu/.nvm/versions/node/v18.20.6/bin/pm2 list | grep -q "nextjs"; then
   # Delete the PM2 process for nextjs

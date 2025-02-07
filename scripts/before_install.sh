@@ -2,7 +2,7 @@
 #!/bin/bash
 
 ##before_install
-export FOLDER=/app/nextjs
+export FOLDER=/home/ubuntu/nextjs
 
 if /home/ubuntu/.nvm/versions/node/v18.20.6/bin/pm2 list | grep -q "nextjs"; then
   # Delete the PM2 process for nextjs
